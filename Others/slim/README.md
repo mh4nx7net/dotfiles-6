@@ -11,7 +11,7 @@
 - Screenshots \
   `screenshot_cmd      scrot -e 'mv $f /home/username/Pictures/'`
   
-Slim requires *~/.xinitrc* to execute WM/DE sessions \
+Slim requires *~/.xinitrc* to execute WM/DE sessions. \
 More information is available on the [Arch Wiki](https://wiki.archlinux.org/index.php/SLiM).
 
 <img src="https://i.ibb.co/XDmrFDQ/slim.png" alt="slim" align="center">

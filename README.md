@@ -48,7 +48,7 @@ Please read [this](https://jie-fang.github.io/blog/basics-of-ricing).
 - **Debian & Ubuntu** \
   `sudo apt install openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger caca-utils highlight atool w3m w3m-img poppler-utils mediainfo geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop zsh`
   
-  zsh & oh-my-zsh \
+  zsh, oh-my-zsh, plugins \
   `chsh -s /usr/bin/zsh` \
   `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"` \
   `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting` \
@@ -72,7 +72,7 @@ Please read [this](https://jie-fang.github.io/blog/basics-of-ricing).
 - **Arch Linux** \
   `yay -S openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator zsh networkmanager-dmenu`
   
-  zsh & oh-my-zsh \
+  zsh, oh-my-zsh, plugins \
   `chsh -s /usr/bin/zsh` \
   `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"` \
   `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting` \
@@ -80,7 +80,7 @@ Please read [this](https://jie-fang.github.io/blog/basics-of-ricing).
   `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
   
   
-> **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. [SLiM Installation](./Others/slim)
+> **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
 
 #### This dotfiles
 - **Most of the files** \
