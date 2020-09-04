@@ -99,6 +99,9 @@ The [Others](./Others/) folder contains spicetify and slim themes.
 - **Default lockscreen**: *~/.config/openbox/lockscreen*
 - **Tray**: *~/.config/openbox/tray*
 
+### Detailed environment
+Please refer to the [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
+
 ## Notes
 ### <p align="center">Color Scheme</p>
 <p align="center"><a name="top" href="#color-scheme"><img src="https://i.ibb.co/9TDTqsy/color-scheme.png" alt="owl4ce.color-scheme" height="60%" width="100%"></a></p>
