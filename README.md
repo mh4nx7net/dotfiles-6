@@ -100,33 +100,6 @@ The [Others](./Others/) folder contains spicetify and slim themes.
 - **Tray**: *~/.config/openbox/tray*
 
 ## Notes
-### <p align="center">Detailed Environment</p>
-| Items                  | Values                                                                                               |
-|------------------------|------------------------------------------------------------------------------------------------------|
-| Audio Volume Control   | amixer, pavucontrol                                                                                  |
-| Brightness Handler     | [brightnessctl](https://github.com/Hummer12007/brightnessctl)                                        |
-| Wallpaper Setter       | nitrogen                                                                                             |
-| Power Manager          | xfce4-power-manager                                                                                  |
-| Lockscreen             | slimlock (from slim display manager)                                                                 |
-| Sessions Locker        | [xautolock](https://wiki.archlinux.org/index.php/Session_lock#xautolock)                             |
-| Clipboard Manager      | parcellite, xclip                                                                                    |
-| Calendar Pop-up        | gsimplecal (for pop-up from tint2)                                                                   |
-| Authentication Agent   | [lxpolkit](https://wiki.archlinux.org/index.php/Polkit)                                              |
-| Network Manager        | NetworkManager + [networkmanager_dmenu](https://github.com/firecat53/networkmanager-dmenu)           |
-| QT Themer (Optional)   | qt5ct, qt5-styleplugins (adapted to the GTK Theme)                                                   |
-| GTK Themer             | lxappearance                                                                                         |
-| Audio Visualizer       | [cava](https://github.com/karlstav/cava)                                                             |
-| Screenshot App         | scrot                                                                                                |
-| Web Browser            | google-chrome-stable                                                                                 |
-| Image Viewer           | viewnior                                                                                             |
-| Music Player           | audacious & spotify + [spicetify](https://github.com/khanhas/spicetify-cli)                          |
-| Video Player           | mpv                                                                                                  |
-| Graphic Editor         | gimp-2.10                                                                                            |
-| CLI Music Player       | mpd, mpc, ncmpcpp                                                                                    |
-| CLI File Manager       | ranger                                                                                               |
-| CLI System Monitor     | htop                                                                                                 |
-| CLI System Information | neofetch                                                                                             |
-##  
 ### <p align="center">Color Scheme</p>
 <p align="center"><a name="top" href="#color-scheme"><img src="https://i.ibb.co/9TDTqsy/color-scheme.png" alt="owl4ce.color-scheme" height="60%" width="100%"></a></p>
 
