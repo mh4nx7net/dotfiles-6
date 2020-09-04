@@ -17,4 +17,5 @@ More information is available on the [Arch Wiki](https://wiki.archlinux.org/inde
 <img src="https://i.ibb.co/XDmrFDQ/slim.png" alt="slim" align="center">
 <img src="https://i.ibb.co/jR60wvP/slimlock.png" alt="slimlock" align="center">
 
-
+If you want a slim **bluesky** theme it's also available at [bluesky.tar.xz](./bluesky.tar.xz).
+<img src="https://i.ibb.co/42S8QXJ/slim-bluesky.png" alt="slimlock" align="center">
