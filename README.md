@@ -63,7 +63,7 @@ Please read [this](https://jie-fang.github.io/blog/basics-of-ricing).
   `ninja -C build install`
 
   obmenu-generator \
-  `sudo su`
+  `sudo su` \
   `echo 'deb http://download.opensuse.org/repositories/home:/Head_on_a_Stick:/obmenu-generator/Debian_10/ /' > /etc/apt/sources.list.d/home:Head_on_a_Stick:obmenu-generator.list` \
   `wget -nv https://download.opensuse.org/repositories/home:Head_on_a_Stick:obmenu-generator/Debian_10/Release.key -O Release.key` \
   `apt-key add - < Release.key` \
