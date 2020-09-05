@@ -86,14 +86,14 @@ Please read [this](https://jie-fang.github.io/blog/basics-of-ricing).
 > **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
 
 #### This dotfiles
-1. **Most of the files** \
-  You can clone with `git clone https://github.com/owl4ce/dotfiles.git` or download it as a zip. After that place it in the home directory or **~**.
+1. **Most of the files**
+   You can clone with `git clone https://github.com/owl4ce/dotfiles.git` or download it as a zip. After that place it in the home directory or **~**.
 
-2. **Icons** \
-  `cd ~/.icons/` \
-  `tar -Jxvf Capitaine-Cursors.tar.xz && tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz` \
-  `sudo cp -r {Capitaine-Cursors,Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/` \
-  `rm -rf ~/.icons/*.tar.xz`
+2. **Icons**
+   - `cd ~/.icons/`
+   - `tar -Jxvf Capitaine-Cursors.tar.xz && tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz`
+   - `sudo cp -r {Capitaine-Cursors,Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/`
+   - `rm -r ~/.icons/*.tar.xz`
 
 For refresh the font cache do `fc-cache -r`. \
 The [Others](./Others/) folder contains spicetify and slim themes.
