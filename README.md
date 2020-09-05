@@ -46,39 +46,41 @@ Please read [this](https://jie-fang.github.io/blog/basics-of-ricing).
 #### Dependencies
 > **Required** (best result)
 - **Debian & Ubuntu** \
-  `sudo apt install openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger caca-utils highlight atool w3m w3m-img poppler-utils mediainfo geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop zsh`
+  - `sudo apt install openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger caca-utils highlight atool w3m w3m-img poppler-utils mediainfo geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop zsh`
   
-  zsh, oh-my-zsh, plugins \
-  `chsh -s /usr/bin/zsh` \
-  `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"` \
-  `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting` \
-  `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions` \
-  `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
+  **oh-my-zsh & plugins**
+  - `chsh -s /usr/bin/zsh`
+  - `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
+  - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+  - `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+  - `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
   
-  picom \
-  `sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev` \
-  `git submodule update --init --recursive` \
-  `meson --buildtype=release . build` \
-  `ninja -C build` \
-  `ninja -C build install`
+  **picom**
+  - `sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev`
+  - `git clone https://github.com/yshui/picom.git`
+  - `cd picom/`
+  - `git submodule update --init --recursive`
+  - `meson --buildtype=release . build`
+  - `ninja -C build`
+  - `ninja -C build install`
 
-  obmenu-generator \
-  `sudo su` \
-  `echo 'deb http://download.opensuse.org/repositories/home:/Head_on_a_Stick:/obmenu-generator/Debian_10/ /' > /etc/apt/sources.list.d/home:Head_on_a_Stick:obmenu-generator.list` \
-  `wget -nv https://download.opensuse.org/repositories/home:Head_on_a_Stick:obmenu-generator/Debian_10/Release.key -O Release.key` \
-  `apt-key add - < Release.key` \
-  `apt update` \
-  `apt install obmenu-generator`
+  **obmenu-generator**
+  - `sudo su`
+  - `echo 'deb http://download.opensuse.org/repositories/home:/Head_on_a_Stick:/obmenu-generator/Debian_10/ /' > /etc/apt/sources.list.d/home:Head_on_a_Stick:obmenu-generator.list`
+  - `wget -nv https://download.opensuse.org/repositories/home:Head_on_a_Stick:obmenu-generator/Debian_10/Release.key -O Release.key`
+  - `apt-key add - < Release.key`
+  - `apt update`
+  - `apt install obmenu-generator`
   
-- **Arch Linux** \
-  `yay -S openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator zsh networkmanager-dmenu`
+- **Arch Linux**
+  - `yay -S openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator zsh networkmanager-dmenu`
   
-  zsh, oh-my-zsh, plugins \
-  `chsh -s /usr/bin/zsh` \
-  `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"` \
-  `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting` \
-  `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions` \
-  `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
+  **oh-my-zsh & plugins**
+  - `chsh -s /usr/bin/zsh`
+  - `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
+  - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+  - `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+  - `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
   
   
 > **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
