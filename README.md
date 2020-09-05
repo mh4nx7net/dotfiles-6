@@ -45,7 +45,7 @@ Please read [this](https://jie-fang.github.io/blog/basics-of-ricing).
 ### Installation
 #### Dependencies
 > **Required** (best result)
-- **Debian & Ubuntu** \
+- **Debian & Ubuntu**
   - `sudo apt install openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger caca-utils highlight atool w3m w3m-img poppler-utils mediainfo geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop zsh`
   
   **oh-my-zsh & plugins**
@@ -86,10 +86,10 @@ Please read [this](https://jie-fang.github.io/blog/basics-of-ricing).
 > **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
 
 #### This dotfiles
-- **Most of the files** \
+1. **Most of the files** \
   You can clone with `git clone https://github.com/owl4ce/dotfiles.git` or download it as a zip. After that place it in the home directory or **~**.
 
-- **Icons** \
+2. **Icons** \
   `cd ~/.icons/` \
   `tar -Jxvf Capitaine-Cursors.tar.xz && tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz` \
   `sudo cp -r {Capitaine-Cursors,Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/` \
