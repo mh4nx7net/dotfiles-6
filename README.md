@@ -86,7 +86,7 @@ Please read [this](https://jie-fang.github.io/blog/basics-of-ricing).
 > **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
 
 #### This dotfiles
-1. **Most of the files**
+1. **Most of the files** \
    You can clone with `git clone https://github.com/owl4ce/dotfiles.git` or download it as a zip. After that place it in the home directory or **~**.
 
 2. **Icons**
