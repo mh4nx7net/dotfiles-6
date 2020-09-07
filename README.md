@@ -24,9 +24,9 @@ Here are some details about my setup:
 - **Openbox Menu**                 : [obmenu-generator](https://github.com/trizen/obmenu-generator)
 - **Panel**                        : [tint2](https://wiki.archlinux.org/index.php/Tint2) :shaved_ice: material icon font!
 - **Compositor**                   : [Picom](https://github.com/yshui/picom)
-- **Notify Daemon**                : [dunst](https://wiki.archlinux.org/index.php/Dunst) :bookmark: minimalist!
+- **Notify Daemon**                : [dunst](https://wiki.archlinux.org/index.php/Dunst) :leaves: minimalism!
 - **Application Launcher**         : [rofi](https://github.com/davatorium/rofi) :rocket: apps & sidebar menu!
-- **File Manager**                 : [Thunar](https://wiki.archlinux.org/index.php/Thunar) :milky_way: customized sidebar & icon!
+- **File Manager**                 : [Thunar](https://wiki.archlinux.org/index.php/Thunar) :bookmark: customized sidebar & icon!
 - **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [vim](https://www.vim.org/)
 
 ## :gift: Changelogs
@@ -159,7 +159,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <details open>
   <summary><strong>Most of the files</strong></summary>
   
-   You can clone with `git clone https://github.com/owl4ce/dotfiles.git` or download it as a zip. After that place it in the user home directory or ( **~** ).
+   You can clone with `git clone https://github.com/owl4ce/dotfiles.git` or download it as a zip. After that put all the files in the **dotfiles** folder to the user's home directory or ( **~** ).
    
   </details>
 
@@ -196,7 +196,7 @@ Please refer to the [wiki/Detailed-Environment](https://github.com/owl4ce/dotfil
 <p align="center"><a name="top" href="#color-scheme"><img src="https://i.ibb.co/9TDTqsy/color-scheme.png" alt="owl4ce.color-scheme" height="60%" width="100%"></a></p>
 
 ### <p align="center">:love_letter:</p>
-<p align="center">Please don't underestimate, I've configured them all since April 2020 and have been studying them since October 2019. Awesome open-source. If you support it, star it or make a pull request. Or if there is a problem you can make an issue here.</p><p align="center">Thank you!</p>
+<p align="center">Please don't underestimate, I've configured them all since April 2020 and have been studying them since October 2019. Awesome open-source. If you support it, star it or make a pull request. Or if there is a problem with configuration you can make an issue here.</p><p align="center">Thank you!</p>
 
 ## :hearts:  Credits / Thanks
 - [Elenapan](https://github.com/elenapan)
@@ -204,6 +204,7 @@ Please refer to the [wiki/Detailed-Environment](https://github.com/owl4ce/dotfil
 - [Fikri Omar](https://github.com/fikriomar16)
 - [Rizqi Nur Assyaufi](https://github.com/bandithijo)
 - [Muktazam Hasbi Ashidiqi](https://github.com/reorr)
+- [Ghani Rafif](https://github.com/ekickx)
 - [Aditya Shakya](https://github.com/adi1090x)
 - Our local linux community [Linuxer Desktop Art](https://web.facebook.com/groups/linuxart) and [r/unixporn](https://www.reddit.com/r/unixporn/).
 - Some people in the forum who provide solutions.
