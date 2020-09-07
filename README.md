@@ -126,7 +126,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <br>
   
 <details open>
-  <summary><strong>Arch Linux based</strong></summary>
+  <summary><strong>Arch Linux</strong></summary>
   
   ```bash
   yay -S openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator zsh networkmanager-dmenu
@@ -137,7 +137,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <details>
   <summary>oh-my-zsh & plugins</summary>
   
-   - ```bash
+  - ```bash
     chsh -s /usr/bin/zsh
     ```
   - ```bash
