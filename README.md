@@ -43,11 +43,7 @@ This is how to install this dotfiles for openbox automated setup.
 Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html) and [this](https://jie-fang.github.io/blog/basics-of-ricing).
 
 ### Installation
-#### Dependencies
-  **:small_blue_diamond: Required** (best result)
-
-  <br>
-  
+#### :small_blue_diamond: Dependencies  
   <details open>
   <summary><strong>Debian & Ubuntu</strong></summary>
   
@@ -157,9 +153,9 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   <br>
   
-  **:small_blue_diamond: Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. SLiM theme read [this](./Others/slim).
+  **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. SLiM theme read [this](./Others/slim).
 
-#### This dotfiles
+#### :small_blue_diamond: This dotfiles
   <details open>
   <summary><strong>Most of the files</strong></summary>
   
@@ -188,7 +184,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
 For refresh the font cache do `fc-cache -r`. \
 The [Others](./Others/) folder contains spicetify and slim themes.
 
-#### Some user configuration
+### Some user configuration
 - **Default lockscreen**: *~/.config/openbox/lockscreen*
 - **Tray**: *~/.config/openbox/tray*
 
