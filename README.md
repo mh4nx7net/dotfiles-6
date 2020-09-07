@@ -43,7 +43,7 @@ This is how to install this dotfiles for openbox automated setup.
 Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html) and [this](https://jie-fang.github.io/blog/basics-of-ricing).
 
 ### Installation (dependencies)
-> Warning! The current application launcher is only for rofi prior to version 1.6.0 (1.5.4)
+> Warning! The current application launcher is only for rofi prior to version 1.6.0 (1.5.4). [Issue](https://github.com/owl4ce/dotfiles/issues/3#issuecomment-688324366)
   <details open>
   <summary><strong>Debian & Ubuntu</strong></summary>
   
@@ -117,7 +117,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
     apt update
     ```
   - ```bash
-    apt install obmenu-generator
+    apt install obmenu-generator libgtk2-perl
     ```
   
   </details>
@@ -128,7 +128,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <summary><strong>Arch Linux</strong></summary>
   
   ```bash
-  yay -S openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator zsh networkmanager-dmenu
+  yay -S openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator gtk2-perl zsh
   ```
   
   </details>
@@ -153,7 +153,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   <br>
   
-  **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. SLiM theme read [this](./Others/slim).
+  **Optional**: xfce4-power-manager, networkmanager-dmenu, audacious, spotify, gimp, *browser*, termite, slim. SLiM theme read [this](./Others/slim).
 
 ### Installation (dotfiles)
   <details open>
