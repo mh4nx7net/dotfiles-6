@@ -45,14 +45,14 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
 ### Installation
 #### Dependencies
 > **Required** (best result)
-<details open>
+  <details open>
   <summary><strong>Debian & Ubuntu</strong></summary>
   
   ```bash
   sudo apt install openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger caca-utils highlight atool w3m w3m-img poppler-utils mediainfo geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop zsh
   ```
 
-</details>
+  </details>
   
   <details>
   <summary>oh-my-zsh & plugins</summary>
@@ -125,14 +125,14 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   <br>
   
-<details open>
+  <details open>
   <summary><strong>Arch Linux</strong></summary>
   
   ```bash
   yay -S openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator zsh networkmanager-dmenu
   ```
   
-</details>
+  </details>
   
   <details>
   <summary>oh-my-zsh & plugins</summary>
@@ -155,14 +155,30 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
 > **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
 
 #### This dotfiles
-1. **Most of the files** \
+  <details open>
+  <summary><strong>Most of the files</strong></summary>
+  
    You can clone with `git clone https://github.com/owl4ce/dotfiles.git` or download it as a zip. After that place it in the user home directory or ( **~** ).
+   
+  </details>
 
-2. **Icons**
-   - `cd ~/.icons/`
-   - `tar -Jxvf Capitaine-Cursors.tar.xz && tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz`
-   - `sudo cp -r {Capitaine-Cursors,Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/`
-   - `rm -r ~/.icons/*.tar.xz`
+  <details>
+  <summary><strong>Icons</strong></summary>
+  
+   - ```bash
+     cd ~/.icons/
+     ```
+   - ```bash
+     tar -Jxvf Capitaine-Cursors.tar.xz && tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz
+     ```
+   - ```bash
+     sudo cp -r {Capitaine-Cursors,Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/`
+     ```
+   - ```bash
+     rm -r ~/.icons/*.tar.xz
+     ```
+     
+   </details>
 
 For refresh the font cache do `fc-cache -r`. \
 The [Others](./Others/) folder contains spicetify and slim themes.
