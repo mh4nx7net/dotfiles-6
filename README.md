@@ -157,9 +157,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   <br>
   
-  **:small_blue_diamond: Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
-
-<br>
+  **:small_blue_diamond: Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. SLiM theme read [this](./Others/slim).
 
 #### This dotfiles
   <details open>
