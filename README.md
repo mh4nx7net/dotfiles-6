@@ -43,6 +43,7 @@ This is how to install this dotfiles for openbox automated setup.
 Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html) and [this](https://jie-fang.github.io/blog/basics-of-ricing).
 
 ### Installation (dependencies)
+> Warning! The current application launcher is only for rofi prior to version 1.6.0 (1.5.4)
   <details open>
   <summary><strong>Debian & Ubuntu</strong></summary>
   
@@ -172,7 +173,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
      tar -Jxvf Capitaine-Cursors.tar.xz && tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz
      ```
    - ```bash
-     sudo cp -r {Capitaine-Cursors,Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/`
+     sudo cp -r {Capitaine-Cursors,Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/
      ```
    - ```bash
      rm ~/.icons/*.tar.xz
