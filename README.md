@@ -36,14 +36,14 @@ Here are some details about my setup:
 
 Look in the [gallery](https://github.com/owl4ce/dotfiles/wiki/Gallery) and [video preview](https://www.youtube.com/watch?v=GRLUOrvEc2s) for more details.
 
-### :rice_scene: Setup
+## :rice_scene: Setup
 This is how to install this dotfiles for openbox automated setup.
 
-#### Introduction of Linux Rice
+### Introduction of Linux Rice
 Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html) and [this](https://jie-fang.github.io/blog/basics-of-ricing).
 
-#### Installation
-##### Dependencies
+### Installation
+#### Dependencies
 > **Required** (best result)
 <details open>
   <summary><strong>Debian & Ubuntu</strong></summary>
@@ -88,7 +88,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   </details
   
 <details open>
-  <summary><strong>Debian & Ubuntu</strong></summary>
+  <summary><strong>Arch Linux based</strong></summary>
   
   `yay -S openbox obconf nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator zsh networkmanager-dmenu`
   
