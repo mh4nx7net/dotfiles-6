@@ -44,7 +44,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
 
 ### Installation
 #### Dependencies
-  **Required** (best result)
+  **:small_blue_diamond: Required** (best result)
 
   <br>
   
@@ -157,9 +157,10 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   <br>
   
-  **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
+  **:small_blue_diamond: Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
 
 <br>
+
 #### This dotfiles
   <details open>
   <summary><strong>Most of the files</strong></summary>
@@ -168,7 +169,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
    
   </details>
 
-  <details>
+  <details open>
   <summary><strong>Icons</strong></summary>
   
    - ```bash
