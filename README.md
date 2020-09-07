@@ -73,7 +73,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   - `ninja -C build`
   - `ninja -C build install`
   
-  </summary>
+  </details>
 
   <details>
   <summary><strong>obmenu-generator</strong></summary>
