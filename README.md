@@ -57,37 +57,73 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <details>
   <summary>oh-my-zsh & plugins</summary>
   
-  - `chsh -s /usr/bin/zsh`
-  - `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
-  - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-  - `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+  - ```bash
+    chsh -s /usr/bin/zsh
+    ```
+  - ```bash
+    sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    ```
+  - ```bash
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  - ```bash
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
   
   </details>
   
   <details>
   <summary>picom</summary>
   
-  - `sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev`
-  - `git clone https://github.com/yshui/picom.git`
-  - `cd picom/`
-  - `git submodule update --init --recursive`
-  - `meson --buildtype=release . build`
-  - `ninja -C build`
-  - `ninja -C build install`
+  - ```bash
+    sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev
+    ```
+  - ```bash
+    git clone https://github.com/yshui/picom.git
+    ```
+  - ```bash
+    cd picom/
+    ```
+  - ```bash
+    git submodule update --init --recursive
+    ```
+  - ```bash
+    meson --buildtype=release . build
+    ```
+  - ```bash
+    ninja -C build
+    ```
+  - ```bash
+    ninja -C build install
+    ```
   
   </details>
 
   <details>
   <summary>obmenu-generator</summary>
   
-  - `sudo su`
-  - `echo 'deb http://download.opensuse.org/repositories/home:/Head_on_a_Stick:/obmenu-generator/Debian_10/ /' > /etc/apt/sources.list.d/home:Head_on_a_Stick:obmenu-generator.list`
-  - `wget -nv https://download.opensuse.org/repositories/home:Head_on_a_Stick:obmenu-generator/Debian_10/Release.key -O Release.key`
-  - `apt-key add - < Release.key`
-  - `apt update`
-  - `apt install obmenu-generator`
+  - ```bash
+    sudo su
+     ```
+  - ```bash
+    echo 'deb http://download.opensuse.org/repositories/home:/Head_on_a_Stick:/obmenu-generator/Debian_10/ /' > /etc/apt/sources.list.d/home:Head_on_a_Stick:obmenu-generator.list
+    ```
+  - ```bash
+    wget -nv https://download.opensuse.org/repositories/home:Head_on_a_Stick:obmenu-generator/Debian_10/Release.key -O Release.key
+    ```
+  - ```bash
+    apt-key add - < Release.key
+    ```
+  - ```bash
+    apt update
+    ```
+  - ```bash
+    apt install obmenu-generator
+    ```
   
   </details>
+  
+  <br>
   
 <details open>
   <summary><strong>Arch Linux based</strong></summary>
@@ -101,10 +137,18 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <details>
   <summary>oh-my-zsh & plugins</summary>
   
-  - `chsh -s /usr/bin/zsh`
-  - `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
-  - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-  - `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+   - ```bash
+    chsh -s /usr/bin/zsh
+    ```
+  - ```bash
+    sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    ```
+  - ```bash
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  - ```bash
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
   
   </details>
   
