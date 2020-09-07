@@ -40,9 +40,11 @@ Look in the [gallery](https://github.com/owl4ce/dotfiles/wiki/Gallery) and [vide
 This is how to install this dotfiles for openbox automated setup.
 
 ### Introduction of Linux Rice
+##  
 Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html) and [this](https://jie-fang.github.io/blog/basics-of-ricing).
 
 ### Installation
+##  
 #### Dependencies
 > **Required** (best result)
 <details open>
@@ -85,7 +87,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   - `apt update`
   - `apt install obmenu-generator`
   
-  </details
+  </details>
   
 <details open>
   <summary><strong>Arch Linux based</strong></summary>
@@ -107,6 +109,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
 > **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
 
 #### This dotfiles
+##  
 1. **Most of the files** \
    You can clone with `git clone https://github.com/owl4ce/dotfiles.git` or download it as a zip. After that place it in the home directory or **~**.
 
@@ -126,7 +129,7 @@ The [Others](./Others/) folder contains spicetify and slim themes.
 ### Detailed environment
 Please refer to the [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
 
-## :notebook: Notes
+## :memo: Notes
 ### <p align="center">Color Scheme</p>
 <p align="center"><a name="top" href="#color-scheme"><img src="https://i.ibb.co/9TDTqsy/color-scheme.png" alt="owl4ce.color-scheme" height="60%" width="100%"></a></p>
 
