@@ -43,8 +43,11 @@ This is how to install this dotfiles for openbox automated setup.
 Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html) and [this](https://jie-fang.github.io/blog/basics-of-ricing).
 
 ### Installation
-<details>
-  <summary><strong>Dependencies</strong></summary>
+#### Dependencies
+  **Required** (best result)
+
+  <br>
+  
   <details open>
   <summary><strong>Debian & Ubuntu</strong></summary>
   
@@ -156,8 +159,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. To install this slim theme read [this](./Others/slim).
 
-  </details>
-  
+<br>
 #### This dotfiles
   <details open>
   <summary><strong>Most of the files</strong></summary>
