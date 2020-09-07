@@ -19,7 +19,7 @@ I hope you understand everything here. :wink:
 Here are some details about my setup:
 - **WM**                           : [Openbox](http://openbox.org/wiki/Main_Page) :art: 4 changable themes/mode!
 - **DM**                           : [SLiM](https://wiki.archlinux.org/index.php/SLiM) :blossom: login themes Mac looks like!
-- **Shell**                        : [zsh](https://wiki.archlinux.org/index.php/zsh) :wrench: with [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) framework!
+- **Shell**                        : [zsh](https://wiki.archlinux.org/index.php/zsh) :shell: with [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) framework!
 - **Terminal**                     : [URxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode), [Termite](https://wiki.archlinux.org/index.php/Termite)
 - **Openbox Menu**                 : [obmenu-generator](https://github.com/trizen/obmenu-generator)
 - **Panel**                        : [tint2](https://wiki.archlinux.org/index.php/Tint2) :shaved_ice: material icon font!
@@ -27,7 +27,7 @@ Here are some details about my setup:
 - **Notify Daemon**                : [dunst](https://wiki.archlinux.org/index.php/Dunst) :bookmark: minimalist!
 - **Application Launcher**         : [rofi](https://github.com/davatorium/rofi) :rocket: apps & sidebar menu!
 - **File Manager**                 : [Thunar](https://wiki.archlinux.org/index.php/Thunar) :milky_way: customized sidebar & icon!
-- **Text Editor**                  : [Geany](https://www.geany.org/), nano, vim
+- **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [vim](https://www.vim.org/)
 
 ## :gift: Changelogs
 - **New mode**: Minimal (both theme)
@@ -175,7 +175,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
      sudo cp -r {Capitaine-Cursors,Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/`
      ```
    - ```bash
-     rm -r ~/.icons/*.tar.xz
+     rm ~/.icons/*.tar.xz
      ```
      
    </details>
