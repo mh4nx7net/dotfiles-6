@@ -42,8 +42,7 @@ This is how to install this dotfiles for openbox automated setup.
 ### Introduction of Linux Rice
 Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html) and [this](https://jie-fang.github.io/blog/basics-of-ricing).
 
-### Installation
-#### :small_blue_diamond: Dependencies  
+### Installation (dependencies)
   <details open>
   <summary><strong>Debian & Ubuntu</strong></summary>
   
@@ -155,7 +154,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   **Optional**: xfce4-power-manager, audacious, spotify, gimp, *browser*, termite, slim. SLiM theme read [this](./Others/slim).
 
-#### :small_blue_diamond: This dotfiles
+### Installation (dotfiles)
   <details open>
   <summary><strong>Most of the files</strong></summary>
   
