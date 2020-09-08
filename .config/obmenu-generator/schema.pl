@@ -28,8 +28,7 @@ require "$ENV{HOME}/.config/obmenu-generator/config.pl";
 my $editor = $CONFIG->{editor};
 
 our $SCHEMA = [
-
-	{sep => "QUICK START"},
+    {sep => "QUICK START"},
     
     #         COMMAND                                                     LABEL                     ICON
     {item => ["bash -c '~/.config/rofi/scripts/appsmenu.sh'",             "Launch Apps",            "preferences-system-login"]},    
@@ -52,18 +51,17 @@ our $SCHEMA = [
     
     {sep => "SESSIONS"},
     
-    {item => ["urxvt -e ~/.config/openbox/visual-mode/wally"            , "Change Wallpaper" ,      "wallpapoz"]},
+    {item => ["urxvt -e ~/.config/openbox/visual-mode/wally",             "Change Wallpaper",       "wallpapoz"]},
     
     {sep  => undef},
     
-    {item => ["bash -c '~/.scripts/ob-button-switcher'"                 , "Switch Button L/R" ,     "postr"]},
+    {item => ["bash -c '~/.scripts/ob-button-switcher'",                  "Switch Button L/R",      "postr"]},
     {item => ["bash -c '~/.config/openbox/visual-mode/switcher minimal'", "E/D Minimal Mode",       "cs-overview"]},
-    {item => ["bash -c '~/.config/openbox/visual-mode/switcher'"        , "Switch Visual Mode",     "lookswitcher"]},
+    {item => ["bash -c '~/.config/openbox/visual-mode/switcher'",         "Switch Visual Mode",     "lookswitcher"]},
     
     {sep  => undef},
     
     {item => ["bash -c '~/.config/openbox/lockscreen'",                   "Lockscreen",             "system-lock-screen"]},
     
     {exit => ["Exit Openbox",                                                                       "system-log-out"]},
-
 ]
