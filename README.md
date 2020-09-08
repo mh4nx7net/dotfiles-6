@@ -153,7 +153,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   <br>
   
-  **Optional**: xfce4-power-manager, networkmanager-dmenu, audacious, spotify, gimp, *browser*, termite, slim. SLiM theme read [this](./Others/slim).
+  **Optional**: xfce4-power-manager, networkmanager-dmenu, audacious, spotify, gimp, *web browser*, termite, slim. SLiM theme read [this](./Others/slim).
 
 ### Installation (dotfiles)
   <details open>
