@@ -3,8 +3,8 @@
 # Network status for panel
 # Requires Material (Icomoon) Font
 
-intwifi="wlp3s0"
-intether="enp4s0"
+intwifi="wlan0"
+intether="eth0"
 
 wifi=""
 wifidisabled=""
@@ -12,7 +12,7 @@ lan=""
 
 case $1 in
     status)
-    if [[ $intwifi != *"$(iwgetid | grep 'ESSID' | awk -F'ESSID' '{print $1}')"* ]]; then
+    if [[ $(iwgetid | grep 'ESSID' | awk -F'ESSID' '{print $1}') = *"$intwifi"* ]]; then
         iwgetid | awk -F'"' '{print $2}'
     else
         if [[ $(ip addr | grep $intether | grep 'inet' | awk -F' ' '{print $1}') = *"inet"* ]]; then
@@ -23,7 +23,7 @@ case $1 in
     fi
     ;;
     icon)
-    if [[ $is-wifi != *"$(iwgetid)"* ]]; then
+    if [[ $(iwgetid) = *"$intwifi"* ]]; then
         echo "$wifi"
     else
         if [[ $(ip addr | grep $intether | grep 'inet' | awk -F' ' '{print $1}') = *"inet"* ]]; then
