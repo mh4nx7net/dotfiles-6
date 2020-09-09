@@ -185,12 +185,16 @@ For refresh the font cache do `fc-cache -r`. \
 The [Others](./Others/) folder contains spicetify and slim themes.
 
 ### Some user configuration
-- **Default lockscreen**: *~/.config/openbox/lockscreen*
+- **Default Lockscreen**: *~/.config/openbox/lockscreen*
 - **Tray**: *~/.config/openbox/tray*
 - **Tint2 Network Status (interface)**: *~/.config/tint2/executor/network*
   ```cfg
+  ...
+  
   intwifi="wlan0"
   intether="eth0"
+  
+  ...
   ```
 
 ### Detailed environment
