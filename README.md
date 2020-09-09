@@ -187,6 +187,11 @@ The [Others](./Others/) folder contains spicetify and slim themes.
 ### Some user configuration
 - **Default lockscreen**: *~/.config/openbox/lockscreen*
 - **Tray**: *~/.config/openbox/tray*
+- **Tint2 Network Status (interface)**: *~/.config/tint2/executor/network*
+  ```cfg
+  intwifi="wlan0"
+  intether="eth0"
+  ```
 
 ### Detailed environment
 Please refer to the [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
