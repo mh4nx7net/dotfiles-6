@@ -19,13 +19,13 @@ I hope you understand everything here. :wink:
 Here are some details about my setup:
 - **WM**                           : [Openbox](http://openbox.org/wiki/Main_Page) :art: 4 changable themes/mode!
 - **DM**                           : [SLiM](https://wiki.archlinux.org/index.php/SLiM) :blossom: login themes Mac looks like!
-- **Shell**                        : [zsh](https://wiki.archlinux.org/index.php/zsh) :shell: with [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) framework!
+- **Shell**                        : [Zsh](https://wiki.archlinux.org/index.php/zsh) :shell: with [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) framework!
 - **Terminal**                     : [URxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode), [Termite](https://wiki.archlinux.org/index.php/Termite)
-- **Openbox Menu**                 : [obmenu-generator](https://github.com/trizen/obmenu-generator)
-- **Panel**                        : [tint2](https://wiki.archlinux.org/index.php/Tint2) :shaved_ice: material icon font!
+- **Openbox Menu**                 : [Obmenu-generator](https://github.com/trizen/obmenu-generator)
+- **Panel**                        : [Tint2](https://wiki.archlinux.org/index.php/Tint2) :shaved_ice: material icon font!
 - **Compositor**                   : [Picom](https://github.com/yshui/picom)
-- **Notify Daemon**                : [dunst](https://wiki.archlinux.org/index.php/Dunst) :leaves: minimalism!
-- **Application Launcher**         : [rofi](https://github.com/davatorium/rofi) :rocket: apps & sidebar menu!
+- **Notify Daemon**                : [Dunst](https://wiki.archlinux.org/index.php/Dunst) :leaves: minimalism!
+- **Application Launcher**         : [Rofi](https://github.com/davatorium/rofi) :rocket: apps & sidebar menu!
 - **File Manager**                 : [Thunar](https://wiki.archlinux.org/index.php/Thunar) :bookmark: customized sidebar & icon!
 - **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [vim](https://www.vim.org/)
 
@@ -159,7 +159,10 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <details open>
   <summary><strong>Most of the files</strong></summary>
   
-   You can clone with `git clone https://github.com/owl4ce/dotfiles.git` or download it as a zip. After that put all the files in the **dotfiles** folder to the user's home directory or ( **~** ).
+   You can clone or download it as a zip. After that put all the files in the **dotfiles** folder to the user's home directory or ( **~** ).
+   ```bash
+   git clone https://github.com/owl4ce/dotfiles.git
+   ```
    
   </details>
 
@@ -181,16 +184,19 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
      
    </details>
 
-For refresh the font cache do `fc-cache -r`. \
+For refresh the font cache do: 
+```bash
+fc-cache -r
+```
 The [Others](./Others/) folder contains spicetify and slim themes.
 
 ### Some user configuration
 - **Default Lockscreen**: \
-  *~/.config/openbox/lockscreen*
+  `~/.config/openbox/lockscreen`
 - **Tray**: \
-  *~/.config/openbox/tray*
+  `~/.config/openbox/tray`
 - **Tint2 Network Status (interface)**: \
-  *~/.config/tint2/executor/network*
+  `~/.config/tint2/executor/network`
   ```cfg
   ...
   
@@ -200,9 +206,9 @@ The [Others](./Others/) folder contains spicetify and slim themes.
   ...
   ```
 - **Root access ([SUID](https://en.wikipedia.org/wiki/Setuid))**:
-  - poweroff
-  - reboot
-  - brightnessctl
+  - `poweroff`
+  - `reboot`
+  - `brightnessctl`
   - *others if needed*
   ```bash
   sudo chmod u+s /bin/{poweroff,reboot,brightnessctl}
