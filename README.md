@@ -185,11 +185,11 @@ For refresh the font cache do `fc-cache -r`. \
 The [Others](./Others/) folder contains spicetify and slim themes.
 
 ### Some user configuration
-- **Default Lockscreen**:
+- **Default Lockscreen**: \
   *~/.config/openbox/lockscreen*
-- **Tray**:
+- **Tray**: \
   *~/.config/openbox/tray*
-- **Tint2 Network Status (interface)**:
+- **Tint2 Network Status (interface)**: \
   *~/.config/tint2/executor/network*
   ```cfg
   ...
@@ -199,11 +199,11 @@ The [Others](./Others/) folder contains spicetify and slim themes.
   
   ...
   ```
-- **Root access ([SUID](https://en.wikipedia.org/wiki/Setuid)**:
-  1. poweroff
-  2. reboot
-  3. brightnessctl
-  4. *others if needed*
+- **Root access ([SUID](https://en.wikipedia.org/wiki/Setuid))**:
+  - poweroff
+  - reboot
+  - brightnessctl
+  - *others if needed*
   ```bash
   sudo chmod u+s /bin/{poweroff,reboot,brightnessctl}
   ```
