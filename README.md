@@ -185,9 +185,12 @@ For refresh the font cache do `fc-cache -r`. \
 The [Others](./Others/) folder contains spicetify and slim themes.
 
 ### Some user configuration
-- **Default Lockscreen**: *~/.config/openbox/lockscreen*
-- **Tray**: *~/.config/openbox/tray*
-- **Tint2 Network Status (interface)**: *~/.config/tint2/executor/network*
+- **Default Lockscreen**:
+  *~/.config/openbox/lockscreen*
+- **Tray**:
+  *~/.config/openbox/tray*
+- **Tint2 Network Status (interface)**:
+  *~/.config/tint2/executor/network*
   ```cfg
   ...
   
@@ -195,6 +198,14 @@ The [Others](./Others/) folder contains spicetify and slim themes.
   intether="eth0"
   
   ...
+  ```
+- **Root access ([SUID](https://en.wikipedia.org/wiki/Setuid)**:
+  1. poweroff
+  2. reboot
+  3. brightnessctl
+  4. *others if needed*
+  ```bash
+  sudo chmod u+s /bin/{poweroff,reboot,brightnessctl}
   ```
 
 ### Detailed environment
@@ -215,6 +226,8 @@ Please refer to the [wiki/Detailed-Environment](https://github.com/owl4ce/dotfil
 - [Muktazam Hasbi Ashidiqi](https://github.com/reorr)
 - [Ghani Rafif](https://github.com/ekickx)
 - [Aditya Shakya](https://github.com/adi1090x)
+- [Ekaunt](https://github.com/ekaunt) - [Better promptmenu](https://github.com/owl4ce/dotfiles/pull/2)
+- [HopeBaron](https://github.com/HopeBaron) - [Termite config](https://github.com/owl4ce/dotfiles/pull/4)
 - Our local linux community [Linuxer Desktop Art](https://web.facebook.com/groups/linuxart) and [r/unixporn](https://www.reddit.com/r/unixporn/).
 - Some people in the forum who provide solutions.
-- All artists who make pictures, illustrations, and wallpapers. By the way [this](https://drive.google.com/drive/folders/1fFseELgArlOGAAeUY32EO98dAU0ITjJ2?usp=sharing) is my wallpaper collection.
+- All artists who make pictures, illustrations, and wallpapers ( **©** ). By the way [this](https://drive.google.com/drive/folders/1fFseELgArlOGAAeUY32EO98dAU0ITjJ2?usp=sharing) is my wallpaper collection.
