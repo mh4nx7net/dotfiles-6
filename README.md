@@ -226,7 +226,7 @@ Please refer to [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/w
   
   <p align="center">Please don't underestimate, I've configured them all since April 2020 and have been studying them since October 2019. Awesome open-source. If you support it, star it or make a pull request. Or if there is a problem with configuration you can make an issue here.</p><p align="center">Thank you!</p>
   
-<details>
+</details>
 
 ## :hearts:  Credits / Thanks
 - [Elenapan](https://github.com/elenapan)
