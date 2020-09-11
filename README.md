@@ -221,8 +221,9 @@ Please refer to [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/w
 ### <p align="center">Color Scheme</p>
 <p align="center"><a name="top" href="#color-scheme"><img src="https://i.ibb.co/9TDTqsy/color-scheme.png" alt="owl4ce.color-scheme" height="60%" width="100%"></a></p>
 
+### <p align="center">:love_letter:</p>
 <details>
-  <summary><center>:love_letter:</center></summary>
+  <summary></summary>
   
   <p align="center">Please don't underestimate, I've configured them all since April 2020 and have been studying them since October 2019. Awesome open-source. If you support it, star it or make a pull request. Or if there is a problem with configuration you can make an issue here.</p><p align="center">Thank you!</p>
   
