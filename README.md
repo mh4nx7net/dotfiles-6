@@ -159,7 +159,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <details open>
   <summary><strong>Most of the files</strong></summary>
   
-   You can clone or download it as a zip. After that put all the files in the **dotfiles** folder to the user's home directory or ( **~** ).
+   You can clone or download it as a zip. After that put all files in the **dotfiles** folder to user's home directory or ( **~** ).
    ```bash
    git clone https://github.com/owl4ce/dotfiles.git
    ```
@@ -184,7 +184,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
      
    </details>
 
-For refresh the font cache do: 
+For refresh font cache do: 
 ```bash
 fc-cache -r
 ```
@@ -215,14 +215,18 @@ The [Others](./Others/) folder contains spicetify and slim themes.
   ```
 
 ### Detailed environment
-Please refer to the [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
+Please refer to [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
 
 ## :memo:  Notes
 ### <p align="center">Color Scheme</p>
 <p align="center"><a name="top" href="#color-scheme"><img src="https://i.ibb.co/9TDTqsy/color-scheme.png" alt="owl4ce.color-scheme" height="60%" width="100%"></a></p>
 
-### <p align="center">:love_letter:</p>
-<p align="center">Please don't underestimate, I've configured them all since April 2020 and have been studying them since October 2019. Awesome open-source. If you support it, star it or make a pull request. Or if there is a problem with configuration you can make an issue here.</p><p align="center">Thank you!</p>
+<details>
+  <summary><p align="center">:love_letter:</p></summary>
+  
+  <p align="center">Please don't underestimate, I've configured them all since April 2020 and have been studying them since October 2019. Awesome open-source. If you support it, star it or make a pull request. Or if there is a problem with configuration you can make an issue here.</p><p align="center">Thank you!</p>
+  
+<details>
 
 ## :hearts:  Credits / Thanks
 - [Elenapan](https://github.com/elenapan)
