@@ -15,7 +15,7 @@ bash -c '~/.config/openbox/visual-mode/startup'
 bash -c '~/.config/openbox/tray' &> /dev/null
 
 # Compositor
-picom -C -b
+picom -b
 
 # Authentication Agent - PolicyKit
 lxpolkit &
