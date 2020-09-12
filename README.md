@@ -208,7 +208,7 @@ fc-cache -rv
 The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes read [this](./Others/slim).
 
 ### Some user configuration
-- **Root privileges ([SUID](https://en.wikipedia.org/wiki/Setuid))**
+- **Root Privileges ([SUID](https://en.wikipedia.org/wiki/Setuid))**
   - `poweroff`
   - `reboot`
   - `brightnessctl`
