@@ -160,7 +160,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   <br>
   
-  **Optional**: xfce4-power-manager, networkmanager-dmenu, audacious, spotify, gimp, *web browser*, termite, slim. SLiM theme read [this](./Others/slim).
+  **Optional**: xfce4-power-manager, networkmanager-dmenu, audacious, spotify, gimp, *web browser*, termite, slim.
 
 ### Installation (dotfiles)
   <details open>
@@ -174,7 +174,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
      cd dotfiles/
      ```
    - ```bash
-     cp * ~/
+     cp -r * ~/
      ```
    - ```bash
      rm -r ~/{README.md,LICENSE,.git} # Delete unnecessary files
@@ -202,15 +202,24 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
 
 For refresh font cache do: 
 ```bash
-fc-cache -r
+fc-cache -rv
 ```
-The [Others](./Others/) folder contains spicetify and slim themes.
+The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes read [this](./Others/slim).
 
 ### Some user configuration
 - **Default Lockscreen**: \
   `~/.config/openbox/lockscreen`
 - **Tray**: \
   `~/.config/openbox/tray`
+- **URxvt Icon**: \
+  `~/.Xresources`
+  ```cfg
+  ...
+  
+  URxvt.iconFile:                   /home/username/.term.png
+  
+  ...
+  ```
 - **Tint2 Network Status (interface)**: \
   `~/.config/tint2/executor/network`
   ```cfg
