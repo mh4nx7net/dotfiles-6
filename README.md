@@ -277,7 +277,7 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   `~/.ncmpcpp/config` \
   `~/.ncmpcpp/albumart` \
   `~/.ncmpcpp/albumart-only` \
-  `~/.ncmpcpp/albumart-viz` \
+  `~/.ncmpcpp/albumart-viz`
   ```cfg
   ...
   
@@ -285,8 +285,8 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   
   ...
   ```
+  
 > **How to use ncmpcpp albumart?** It's easy, put `album|cover|folder|artwork|front.jp?g|png|gif|bmp` into folder with song album.
-> **How does it work?** It uses regex with the find command: `find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \; `.
 
 ### Detailed environment
 Please refer to [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
