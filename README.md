@@ -52,7 +52,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <summary><strong>Debian & Ubuntu</strong></summary>
   
   ```bash
-  sudo apt install openbox obconf alsa-utils nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger caca-utils highlight atool w3m w3m-img poppler-utils mediainfo geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop zsh
+  sudo apt install openbox obconf alsa-utils nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m w3m-img geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop zsh
   ```
 
   </details>
@@ -139,7 +139,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <summary><strong>Arch Linux</strong></summary>
   
   ```bash
-  yay -S openbox obconf alsa-utils nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler ranger w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator gtk2-perl zsh zsh-completions
+  yay -S openbox obconf alsa-utils nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator gtk2-perl zsh zsh-completions
   ```
   
   </details>
@@ -164,7 +164,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   <br>
   
-  **Optional**: xfce4-power-manager, networkmanager-dmenu, audacious, spotify, gimp, *web browser*, termite, slim.
+  **Optional**: xfce4-power-manager, networkmanager-dmenu, audacious, spotify, ranger, gimp, termite, slim.
 
 ### Installation (dotfiles)
   <details open>
@@ -239,6 +239,54 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   ```bash
   sudo chmod u+s /bin/{poweroff,reboot,brightnessctl}
   ```
+- **Neofetch image (w3m)** \
+  `~/.config/neofetch/config.conf`
+  ```cfg
+  ...
+  
+  # Image Source
+  #
+  # Which image or ascii file to display.
+  #
+  # Default:  'auto'
+  # Values:   'auto', 'ascii', 'wallpaper', '/path/to/img', '/path/to/ascii', '/path/to/dir/'
+  #           'command output (neofetch --ascii "$(fortune | cowsay -W 30)")'
+  # Flag:     --source
+  #
+  # NOTE: 'auto' will pick the best image source for whatever image backend is used.
+  #       In ascii mode, distro ascii art will be used and in an image mode, your
+  #       wallpaper will be used.
+  image_source="auto"
+  #image_source="${HOME}/.config/neofetch/arch.png"
+  #image_source="${HOME}/.config/neofetch/artix.png"
+  #image_source="${HOME}/.config/neofetch/gentoo.png"
+  #image_source="${HOME}/.config/neofetch/ob.png"
+  
+  ...
+  ```
+- **Mpd music directory** \
+  `~/.mpd/mpd.conf`
+  ```cfg
+  ...
+  
+  music_directory     "~/Music/"
+  
+  ...
+  ```
+- **Ncmpcpp music directory** \
+  `~/.ncmpcpp/config` \
+  `~/.ncmpcpp/albumart` \
+  `~/.ncmpcpp/albumart-only` \
+  `~/.ncmpcpp/albumart-viz` \
+  ```cfg
+  ...
+  
+  mpd_music_dir = "~/Music/"
+  
+  ...
+  ```
+> **How to use ncmpcpp albumart?** It's easy, put `album|cover|folder|artwork|front.jp?g|png|gif|bmp` into folder with song album.
+> **How does it work?** It uses regex with the find command: `find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \; `.
 
 ### Detailed environment
 Please refer to [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
