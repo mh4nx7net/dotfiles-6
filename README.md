@@ -75,6 +75,8 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <details>
   <summary>picom</summary>
   
+  > I haven't tested it yet.
+  
   - ```bash
     sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev
     ```
@@ -103,6 +105,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <summary>obmenu-generator</summary>
   
   > I haven't tested it yet.
+  
   - ```bash
     sudo su
      ```
@@ -164,9 +167,18 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <summary><strong>Most of the files</strong></summary>
   
    You can clone or download it as a zip. After that put all files in the **dotfiles** folder to user's home directory or ( **~** ).
-   ```bash
-   git clone https://github.com/owl4ce/dotfiles.git
-   ```
+   - ```bash
+     git clone https://github.com/owl4ce/dotfiles.git
+     ```
+   - ```bash
+     cd dotfiles/
+     ```
+   - ```bash
+     cp * ~/
+     ```
+   - ```bash
+     rm -r ~/{README.md,LICENSE,.git} # Delete unnecessary files
+     ```
    
   </details>
 
@@ -177,13 +189,13 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
      cd ~/.icons/
      ```
    - ```bash
-     tar -Jxvf Capitaine-Cursors.tar.xz && tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz
+     tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz
      ```
    - ```bash
-     sudo cp -r {Capitaine-Cursors,Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/
+     sudo cp -r {Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/
      ```
    - ```bash
-     rm ~/.icons/*.tar.xz
+     rm ~/.icons/{Papirus-Custom,Papirus-Custom-Dark}.tar.xz # Delete unnecessary archives
      ```
      
    </details>
