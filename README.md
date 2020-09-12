@@ -230,7 +230,7 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   
   ...
   ```
-- **Root access ([SUID](https://en.wikipedia.org/wiki/Setuid))** \
+- **Root access ([SUID](https://en.wikipedia.org/wiki/Setuid))**
   - `poweroff`
   - `reboot`
   - `brightnessctl`
