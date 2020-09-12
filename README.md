@@ -49,7 +49,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
 ### Installation (dependencies)
 > Warning! The current application launcher is only for rofi prior to version 1.6.0 (1.5.4). [Issue](https://github.com/owl4ce/dotfiles/issues/3#issuecomment-688324366)
   <details open>
-  <summary><strong>Debian & Ubuntu</strong></summary>
+  <summary><strong>Debian & Ubuntu (and all based distributions)</strong></summary>
   
   ```bash
   sudo apt install openbox obconf alsa-utils nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit xautolock rxvt-unicode xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m w3m-img geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop zsh
@@ -136,7 +136,9 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   <br>
   
   <details open>
-  <summary><strong>Arch Linux</strong></summary>
+  <summary><strong>Arch Linux (and all based distributions)</strong></summary>
+  
+  > Make sure your **AUR Helper** is *yay*.
   
   ```bash
   yay -S openbox obconf alsa-utils nitrogen dunst tint2 gsimplecal rofi lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m geany nano vim viewnior mpd mpc ncmpcpp mpv pavucontrol cava parcellite neofetch htop picom obmenu-generator gtk2-perl zsh zsh-completions
