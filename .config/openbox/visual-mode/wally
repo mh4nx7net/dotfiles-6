@@ -11,13 +11,14 @@ GREEN='\033[1;32m'
 MAGENTA='\033[1;35m'
 NC='\033[0m' # No Color
 
-# Default Wall Directory
+# Default wallpaper dir
 dir=~/.wallpaper
 
 current="$(cat ~/.config/openbox/visual-mode/current)"
 chkmin="$(cat ~/.config/openbox/visual-mode/current | grep 'minimal')"
 
 if [[ $chkmin = *"minimal"* ]]; then
+
     if [[ $current = *"mechanical"* ]]; then
         echo -e "${CYAN}Select wallpaper for Mechanical Theme [Minimal]:"
         n=0
@@ -46,13 +47,13 @@ if [[ $chkmin = *"minimal"* ]]; then
             eval "IMG=\$img${num}"
             nitrogen --set-zoom-fill --save $IMG &> /dev/null
             
-            # Write Selected
+            # Write selected
             selected="$(echo "$IMG" | awk -F'mechanical/' '{print $2}')"
             echo "$selected" > ~/.config/openbox/visual-mode/mechanical/wall-minimal
             
             printf "\n${CYAN}Selected wallpaper: ${NC}$(cat ~/.config/openbox/visual-mode/eyecandy/wall-minimal)\n"
             
-            # Notify Success
+            # Notify success
             notify-send -u low -i wallpapoz "Wallpaper" "Applied: $(cat ~/.config/openbox/visual-mode/mechanical/wall-minimal)"
         fi
     else
@@ -83,17 +84,19 @@ if [[ $chkmin = *"minimal"* ]]; then
             eval "IMG=\$img${num}"
             nitrogen --set-zoom-fill --save $IMG &> /dev/null
             
-            # Write Selected
+            # Write selected
             selected="$(echo "$IMG" | awk -F'eyecandy/' '{print $2}')"
             echo "$selected" > ~/.config/openbox/visual-mode/eyecandy/wall-minimal
             
             printf "\n${CYAN}Selected wallpaper: ${NC}$(cat ~/.config/openbox/visual-mode/eyecandy/wall-minimal)\n"
             
-            # Notify Success
+            # Notify success
             notify-send -u low -i wallpapoz "Wallpaper" "Applied: $(cat ~/.config/openbox/visual-mode/eyecandy/wall-minimal)"
         fi
     fi
+    
 else
+
     if [[ $current = *"mechanical"* ]]; then
         echo -e "${CYAN}Select wallpaper for Mechanical Theme:"
         n=0
@@ -122,13 +125,13 @@ else
             eval "IMG=\$img${num}"
             nitrogen --set-zoom-fill --save $IMG &> /dev/null
             
-            # Write Selected
+            # Write selected
             selected="$(echo "$IMG" | awk -F'mechanical/' '{print $2}')"
             echo "$selected" > ~/.config/openbox/visual-mode/mechanical/wall
             
             printf "\n${CYAN}Selected wallpaper: ${NC}$(cat ~/.config/openbox/visual-mode/eyecandy/wall)\n"
             
-            # Notify Success
+            # Notify success
             notify-send -u low -i wallpapoz "Wallpaper" "Applied: $(cat ~/.config/openbox/visual-mode/mechanical/wall)"
         fi
     else
@@ -159,14 +162,15 @@ else
             eval "IMG=\$img${num}"
             nitrogen --set-zoom-fill --save $IMG &> /dev/null
             
-            # Write Selected
+            # Write selected
             selected="$(echo "$IMG" | awk -F'eyecandy/' '{print $2}')"
             echo "$selected" > ~/.config/openbox/visual-mode/eyecandy/wall
             
             printf "\n${CYAN}Selected wallpaper: ${NC}$(cat ~/.config/openbox/visual-mode/eyecandy/wall)\n"
             
-            # Notify Success
+            # Notify success
             notify-send -u low -i wallpapoz "Wallpaper" "Applied: $(cat ~/.config/openbox/visual-mode/eyecandy/wall)"
         fi
     fi
+    
 fi

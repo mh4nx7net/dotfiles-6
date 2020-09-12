@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# SLiM background syncronizing
+# SLiM background synchronizing
 
 current="$(cat ~/.config/openbox/visual-mode/current)"
 chkmin="$(cat ~/.config/openbox/visual-mode/current | grep 'minimal')"

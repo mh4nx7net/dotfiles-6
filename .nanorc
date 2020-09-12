@@ -2,7 +2,7 @@
 set smooth
 set autoindent
 #set backup
-#set backupdir "/home/user/nano-backups"
+#set backupdir "/home/username/nano-backups"
 #set casesensitive
 #set historylog
 set morespace

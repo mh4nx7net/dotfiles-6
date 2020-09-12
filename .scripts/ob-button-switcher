@@ -6,6 +6,7 @@ current="$(cat ~/.config/openbox/rc.xml | grep '<titleLayout>' | awk -F' ' '{pri
 chkmin="$(cat ~/.config/openbox/visual-mode/current | grep 'minimal')"
 
 if [[ $chkmin != *"minimal"* ]]; then
+
     if [[ $current != *"<titleLayout>LIMC</titleLayout>"* ]]; then
         sed -i '35s_<titleLayout>.*_<titleLayout>LIMC</titleLayout>_' ~/.config/openbox/rc.xml
         openbox --reconfigure
@@ -13,6 +14,9 @@ if [[ $chkmin != *"minimal"* ]]; then
         sed -i '35s_<titleLayout>.*_<titleLayout>CIML</titleLayout>_' ~/.config/openbox/rc.xml
         openbox --reconfigure
     fi
+    
 else
+
     notify-send -u low -i postr "OB Button Switcher" "Disable Minimal Mode to switch button"
+    
 fi
