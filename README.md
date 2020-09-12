@@ -30,7 +30,7 @@ Here are some details about my setup:
 - **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [vim](https://www.vim.org/)
 
 ## :gift: Changelogs
-<a href="https://i.ibb.co/7zPBVZM/2020-09-12-150044-516x307-scrot.png"><img src="https://i.ibb.co/7zPBVZM/2020-09-12-150044-516x307-scrot.png" alt="preview" align="right" width="566px"></a>
+<a href="https://i.ibb.co/ypLKP0b/neofetch.png"><img src="https://i.ibb.co/ypLKP0b/neofetch.png" alt="neofetch" align="right" width="400px"></a>
 
 - **New mode**: Minimal (both theme)
 - **New wallpapers** (can be [added](./.wallpaper/) by yourself)
