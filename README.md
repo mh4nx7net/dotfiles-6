@@ -231,7 +231,7 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   
   ...
   ```
-- **Root access ([SUID](https://en.wikipedia.org/wiki/Setuid))**
+- **Root Access ([SUID](https://en.wikipedia.org/wiki/Setuid))**
   - `poweroff`
   - `reboot`
   - `brightnessctl`
@@ -239,7 +239,7 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   ```bash
   sudo chmod u+s /bin/{poweroff,reboot,brightnessctl}
   ```
-- **Neofetch image (w3m)** \
+- **Neofetch Image (w3m)** \
   `~/.config/neofetch/config.conf`
   ```cfg
   ...
@@ -264,7 +264,7 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   
   ...
   ```
-- **Mpd music directory** \
+- **MPD Music Directory** \
   `~/.mpd/mpd.conf`
   ```cfg
   ...
@@ -273,7 +273,7 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   
   ...
   ```
-- **Ncmpcpp music directory** \
+- **Ncmpcpp Music Directory** \
   `~/.ncmpcpp/config` \
   `~/.ncmpcpp/albumart` \
   `~/.ncmpcpp/albumart-only` \
@@ -286,7 +286,8 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   ...
   ```
   
-> **How to use ncmpcpp albumart?** It's easy, put `album|cover|folder|artwork|front.jp?g|png|gif|bmp` into folder with song album.
+> **How to use ncmpcpp albumart?** \
+It's easy, put `album|cover|folder|artwork|front.jp?g|png|gif|bmp` into folder with song album.
 
 ### Detailed environment
 Please refer to [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
