@@ -171,10 +171,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
      git clone https://github.com/owl4ce/dotfiles.git
      ```
    - ```bash
-     cd dotfiles/
-     ```
-   - ```bash
-     cp -r * ~/
+     cd dotfiles/ && cp -r * ~/
      ```
    - ```bash
      rm -r ~/{README.md,LICENSE,.git} # Delete unnecessary files
