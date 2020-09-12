@@ -192,10 +192,10 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
      tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz
      ```
    - ```bash
-     sudo cp -r {Papirus-Custom,Papirus-Custom-Dark} /usr/share/icons/
+     sudo cp -r {Papirus-Custom,Papirus-Dark-Custom} /usr/share/icons/
      ```
    - ```bash
-     rm ~/.icons/{Papirus-Custom,Papirus-Custom-Dark}.tar.xz # Delete unnecessary archives
+     rm ~/.icons/{Papirus-Custom,Papirus-Dark-Custom}.tar.xz # Delete unnecessary archives
      ```
      
    </details>
@@ -207,11 +207,11 @@ fc-cache -rv
 The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes read [this](./Others/slim).
 
 ### Some user configuration
-- **Default Lockscreen**: \
+- **Default Lockscreen** \
   `~/.config/openbox/lockscreen`
-- **Tray**: \
+- **Tray** \
   `~/.config/openbox/tray`
-- **URxvt Icon**: \
+- **URxvt Icon** \
   `~/.Xresources`
   ```cfg
   ...
@@ -220,7 +220,7 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   
   ...
   ```
-- **Tint2 Network Status (interface)**: \
+- **Tint2 Network Status (interface)** \
   `~/.config/tint2/executor/network`
   ```cfg
   ...
@@ -230,7 +230,7 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   
   ...
   ```
-- **Root access ([SUID](https://en.wikipedia.org/wiki/Setuid))**:
+- **Root access ([SUID](https://en.wikipedia.org/wiki/Setuid))** \
   - `poweroff`
   - `reboot`
   - `brightnessctl`
