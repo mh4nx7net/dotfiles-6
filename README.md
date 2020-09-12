@@ -30,9 +30,12 @@ Here are some details about my setup:
 - **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [vim](https://www.vim.org/)
 
 ## :gift: Changelogs
+<a href="https://i.ibb.co/7zPBVZM/2020-09-12-150044-516x307-scrot.png"><img src="https://i.ibb.co/7zPBVZM/2020-09-12-150044-516x307-scrot.png" alt="preview" align="right" width="566px"></a>
+
 - **New mode**: Minimal (both theme)
 - **New wallpapers** (can be [added](./.wallpaper/) by yourself)
-- **Mechanical**: Added panel shadows
+- **Mechanical theme**: Added panel shadows
+- **Neofetch**: Added Artix Linux logo
 - **Major changes**: Reconfigure most of the files
 
 Look in the [gallery](https://github.com/owl4ce/dotfiles/wiki/Gallery) and [video preview](https://www.youtube.com/watch?v=GRLUOrvEc2s) for more details.
