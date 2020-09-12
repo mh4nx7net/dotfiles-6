@@ -32,6 +32,7 @@ Here are some details about my setup:
 ## :gift: Changelogs
 - **New mode**: Minimal (both theme)
 - **New wallpapers** (can be [added](./.wallpaper/) by yourself)
+- **Mechanical**: Added panel shadows
 - **Major changes**: Reconfigure most of the files
 
 Look in the [gallery](https://github.com/owl4ce/dotfiles/wiki/Gallery) and [video preview](https://www.youtube.com/watch?v=GRLUOrvEc2s) for more details.
