@@ -208,6 +208,14 @@ fc-cache -rv
 The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes read [this](./Others/slim).
 
 ### Some user configuration
+- **Root privileges ([SUID](https://en.wikipedia.org/wiki/Setuid))**
+  - `poweroff`
+  - `reboot`
+  - `brightnessctl`
+  - *others if needed*
+  ```bash
+  sudo chmod u+s /bin/{poweroff,reboot,brightnessctl}
+  ```
 - **Default Lockscreen** \
   `~/.config/openbox/lockscreen`
 - **Tray** \
@@ -230,14 +238,6 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   intether="eth0"
   
   ...
-  ```
-- **Root Access ([SUID](https://en.wikipedia.org/wiki/Setuid))**
-  - `poweroff`
-  - `reboot`
-  - `brightnessctl`
-  - *others if needed*
-  ```bash
-  sudo chmod u+s /bin/{poweroff,reboot,brightnessctl}
   ```
 - **Neofetch Image (w3m)** \
   `~/.config/neofetch/config.conf`
@@ -287,7 +287,7 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   ```
   
 > **How to use ncmpcpp albumart?** \
-It's easy, put `album|cover|folder|artwork|front.jp?g|png|gif|bmp` into folder with song album.
+It's easy, put `album|cover|folder|artwork|front.jp?g|png|gif|bmp` into folder with song album. Recommended image size is *500px* or more.
 
 ### Detailed environment
 Please refer to [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
