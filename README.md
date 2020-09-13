@@ -166,7 +166,7 @@ Please read [this](https://crispgm.com/page/the-fascinating-arch-linux-rice.html
   
   <br>
   
-  **Optional**: xfce4-power-manager, networkmanager-dmenu, audacious, spotify, ranger, gimp, termite, slim.
+  **Optional**: [audacious](https://audacious-media-player.org/), [gimp](https://www.gimp.org/), [networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu), [ranger](https://github.com/ranger/ranger), [slim](https://wiki.archlinux.org/index.php/SLiM), [spotify](https://www.spotify.com/id/download/linux/), [termite](https://www.compuphase.com/software_termite.htm), [xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/getting-started), [zathura](https://pwmt.org/projects/zathura/).
 
 ### Installation (dotfiles)
   <details open>
