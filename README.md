@@ -30,7 +30,7 @@ Here are some details about my setup:
 - **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [vim](https://www.vim.org/)
 
 ## :gift: Changelogs
-<a href="https://i.ibb.co/ypLKP0b/neofetch.png"><img src="https://i.ibb.co/ypLKP0b/neofetch.png" alt="neofetch" align="right" width="400px"></a>
+<img src="https://i.ibb.co/rkVxsVT/neofetch.png" alt="neofetch" align="right" width="400px">
 
 - **New mode**: Minimal (both theme)
 - **New wallpapers** (can be [added](./.wallpaper/) by yourself)
@@ -289,7 +289,7 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   ```
   
 > **How to use ncmpcpp albumart?** \
-It's easy, put `album|cover|folder|artwork|front.jp?g|png|gif|bmp` into folder with song album. Recommended image size is *500px* or more.
+It's easy, put `album|cover|folder|artwork|front.jp?g|png|gif|bmp` into folder with song album. Recommended image size is *500px* ( **1:1** ) or more.
 
 ### Detailed environment
 Please refer to [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/wiki/Detailed-Environment).
@@ -299,7 +299,7 @@ Please refer to [wiki/Detailed-Environment](https://github.com/owl4ce/dotfiles/w
 <p align="center"><a name="top" href="#color-scheme"><img src="https://i.ibb.co/9TDTqsy/color-scheme.png" alt="owl4ce.color-scheme" height="60%" width="100%"></a></p>
 
 ### <p align="center">:love_letter:</p>
-<p align="center">Please don't underrate, I've configured them all since April 2020 and have been stuDYING them since October 2019. Awesome open-source. If you support it, star it or make a PR. Or if there is a problem with configuration you can make an issue here.</p><p align="center"><b>Thank you!</b></p>
+<p align="center">Please don't underrate, I've configured them all since April 2020 and have been stuDYING them since [October 2019](https://github.com/owl4ce/dotfiles/wiki/My-Linux-Ricing-Journey). Awesome open-source. If you support it, star it or make a PR. Or if there is a problem with configuration you can make an issue here.</p><p align="center"><b>Thank you!</b></p>
 
 ## :hearts:  Credits / Thanks
 - [Elenapan](https://github.com/elenapan)
