@@ -30,10 +30,10 @@ Here are some details about my setup:
 - **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [vim](https://www.vim.org/)
 
 ## :gift: Changelogs
-<a href="https://i.ibb.co/DzZhZH8/X.png"><img src="https://i.ibb.co/FndfhJt/chrome-thumbnail-400px.png" alt="google-chrome.thumbnail" align="right" width="200px"></a>
+<a href="https://i.ibb.co/DzZhZH8/X.png"><img src="https://i.ibb.co/FndfhJt/chrome-thumbnail-400px.png" alt="google-chrome.thumbnail" align="right" width="400px"></a>
 
-- **GTK+ Theme**: Google-chrome / Chromium CSS - [See tips](#some-user-configuration)
-- **Neofetch**: Added Artix Linux logo
+- **GTK+ Theme**: Google-chrome / Chromium CSS - [See tip](#some-user-configuration)
+- **Neofetch**: Added Artix Linux logo - [See screenshot](https://i.ibb.co/rkVxsVT/neofetch.png)
 - **Mechanical Theme**: Added panel shadows
 - **New Mode**: Minimal (both theme)
 - **New Wallpapers** (can be [added](./.wallpaper/) by yourself)
@@ -267,11 +267,13 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   
   ...
   ```
-- **Google-chrome / Chromium (tips)** \
+- **Google-chrome / Chromium (tip)** \
   `chrome://settings/`
   - Themes: `Use GTK+`
   - `Use system title bar and borders`
-  - Customize new tab: `Background`
+  
+  `New Tab`
+  - Customize: `Background`
   
 - **MPD Music Directory** \
   `~/.mpd/mpd.conf`
