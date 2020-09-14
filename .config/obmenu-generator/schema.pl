@@ -37,8 +37,8 @@ our $SCHEMA = [
     {sep  => undef},
     
     {beg  => ["Screenshot",                                                                         "deepin-screenshot"]},
-    {item => ["bash -c '~/.scripts/shot-now'",                            "Now",                    "deepin-screenshot"]},
-    {item => ["bash -c '~/.scripts/shot-5sec'",                           "After 5s",               "deepin-screenshot"]},
+    {item => ["bash -c '~/.scripts/shot-now delay'",                      "Now",                    "deepin-screenshot"]},
+    {item => ["bash -c '~/.scripts/shot-timer'",                          "After ..s",              "deepin-screenshot"]},
     {item => ["bash -c '~/.scripts/shot-seldraw'",                        "Select window or draw",  "deepin-screenshot"]},
     {end  => undef},
     

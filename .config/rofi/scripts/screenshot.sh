@@ -13,12 +13,12 @@ options="$screen\n$area\n$timer"
 chosen="$(echo -e "$options" | $rofi_command -dmenu -selected-row 1)"
 case $chosen in
     $screen)
-        ~/.scripts/shot-now
+        ~/.scripts/shot-now delay
         ;;
     $area)
         ~/.scripts/shot-seldraw
         ;;
     $timer)
-        ~/.scripts/shot-5sec
+        ~/.scripts/shot-timer
         ;;
 esac

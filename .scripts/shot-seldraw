@@ -3,27 +3,34 @@
 # Select window or draw and add borders then show preview
 # See scrot manual
 
+savedir=~/Pictures
+bordercolor="#ffffff"
+
+# Begin
+rm /tmp/*_scrot*.png
 sleep .5s
 scrot -s -f -b -e 'mv $f /tmp/' -l style=dash,width=3,color="#2be491" && \
 
 notify-send -t 750 -i deepin-screenshot -u low "Screenshot" "Processing captured image"
 
 # Use imagemagick to add border
-current="$(ls /tmp/ | grep 'scrot')"
+current="$(ls /tmp/ | grep 'scrot' | awk -F'.png' '{print $1}')"
 
-convert /tmp/$current \( +clone -background black -shadow 30x10+0+0 \) \
+convert /tmp/$current.png \( +clone -background black -shadow 30x10+0+0 \) \
 +swap -background none -layers merge +repage /tmp/$current-shadow.png
 
-convert /tmp/$current-shadow.png -bordercolor white \
--border 5 ~/Pictures/$current
+convert /tmp/$current-shadow.png -bordercolor $bordercolor \
+-border 5 $savedir/$current-framed.png
 
-# Deleting temporary files
-rm /tmp/*_scrot.png
-rm /tmp/*-shadow.png
+# Copy original file
+cp /tmp/$current.png $savedir
 
-[[ -f ~/Pictures/$current ]] && \
+rm /tmp/*_scrot*.png
 
-notify-send -i deepin-screenshot -u low "Screenshot" "Saved in <u>/home/`whoami`/Pictures/</u>" && \
+# Checking final file
+[[ -f $savedir/$current-framed.png ]] && \
+
+notify-send -i deepin-screenshot -u low "Screenshot" "Saved in <u>$savedir/</u>" && \
 
 # Open final result
-viewnior ~/Pictures/$current &> /dev/null
+viewnior $savedir/$current-framed.png &> /dev/null
