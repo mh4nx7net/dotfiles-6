@@ -824,6 +824,12 @@
       <maximized>true</maximized>
     </application>
     -->
+    <application class="Google-chrome" type="normal">
+      <decor>no</decor>
+    </application>
+    <application class="Chromium" type="normal">
+      <decor>no</decor>
+    </application>
     <application name="termite">
       <position force="yes">
         <x>0</x>

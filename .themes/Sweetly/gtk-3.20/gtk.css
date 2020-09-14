@@ -4514,7 +4514,41 @@ window.background > box.vertical > scrolledwindow > widget toolbar button {
 /************
  * Chromium *
  ************/
-tooltip.chromium {
+window.background.chromium {
+  background-color: rgba(178, 178, 179, 0.4);
+}
+
+window.background.chromium entry,
+window.background.chromium > button:not(.suggested-action):not(.destructive-action) {
+  border: 1px solid rgba(0,0,0,0);
+}
+
+window.background.chromium > button {
+  box-shadow: none;
+  background-size: auto;
+}
+
+window.background.chromium > button:hover {
+  background-image: image(alpha(currentColor, 0.08));
+}
+
+window.background.chromium > button:active {
+  background-image: image(alpha(currentColor, 0.24));
+}
+
+window.background.chromium headerbar button:active {
+  background-size: 1000% 1000%;
+}
+
+window.background.chromium spinner {
+  color: #CF8EF4;
+}
+
+window.background.chromium textview {
+  background-color: #F7F7F7;
+}
+
+tooltip.background.chromium {
   background-color: #F9F9F9;
 }
 

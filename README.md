@@ -30,13 +30,15 @@ Here are some details about my setup:
 - **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [vim](https://www.vim.org/)
 
 ## :gift: Changelogs
-<img src="https://i.ibb.co/rkVxsVT/neofetch.png" alt="neofetch" align="right" width="400px">
+<a href="https://i.ibb.co/DzZhZH8/X.png"><img src="https://i.ibb.co/FndfhJt/chrome-thumbnail-400px.png" alt="google-chrome.thumbnail" align="right" width="400px"></a>
+<a href="https://i.ibb.co/rkVxsVT/neofetch.png"><img src="https://i.ibb.co/rkVxsVT/neofetch.png" alt="neofetch" align="right" width="400px"></a>
 
-- **New mode**: Minimal (both theme)
-- **New wallpapers** (can be [added](./.wallpaper/) by yourself)
-- **Mechanical theme**: Added panel shadows
+- **GTK+ Theme**: Google-chrome/Chromium material theme. [See tips](#some-user-configuration)
+- **Major Changes**: Reconfigure most of the files
+- **Mechanical Theme**: Added panel shadows
 - **Neofetch**: Added Artix Linux logo
-- **Major changes**: Reconfigure most of the files
+- **New Mode**: Minimal (both theme)
+- **New Wallpapers** (can be [added](./.wallpaper/) by yourself)
 
 Look in the [gallery](https://github.com/owl4ce/dotfiles/wiki/Gallery) and [video preview](https://www.youtube.com/watch?v=GRLUOrvEc2s) for more details.
 
@@ -266,6 +268,12 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   
   ...
   ```
+- **Google-chrome / Chromium (tips)** \
+  `chrome://settings/`
+  - Themes: `Use GTK+`
+  - `Use system title bar and borders`
+  - Customize new tab: `Background`
+  
 - **MPD Music Directory** \
   `~/.mpd/mpd.conf`
   ```cfg
