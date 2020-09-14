@@ -30,7 +30,7 @@ Here are some details about my setup:
 - **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [vim](https://www.vim.org/)
 
 ## :gift: Changelogs
-<a href="https://i.ibb.co/DzZhZH8/X.png"><img src="https://i.ibb.co/FndfhJt/chrome-thumbnail-400px.png" alt="google-chrome.thumbnail" align="right" width="400px"></a>
+<a href="https://i.ibb.co/dbxBh6S/X.png"><img src="https://i.ibb.co/wdPCt2C/chrome-thumbnail-400px.png" alt="google-chrome.thumbnail" align="right" width="400px"></a>
 
 - **GTK+ Theme**: Google-chrome / Chromium CSS - [See tip](#some-user-configuration)
 - **Neofetch**: Added Artix Linux logo - [See screenshot](https://i.ibb.co/rkVxsVT/neofetch.png)
@@ -268,12 +268,17 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   ...
   ```
 - **Google-chrome / Chromium (tip)** \
+  **Settings** \
   `chrome://settings/`
   - Themes: `Use GTK+`
   - `Use system title bar and borders`
   
-  `New Tab`
-  - Customize: `Background`
+  **New Tab** \
+  - Extension: [Tabliss - A Beautiful New Tab](https://chrome.google.com/webstore/detail/tabliss-a-beautiful-new-t/hipekcciheckooncpjeljhnekcoolahp?hl=en)
+  
+  **Tabliss -  Widgets Font** \
+  - Greeting, Message: [Youth Touch DEMO](https://www.dafont.com/youth-touch.font)
+  - Time, Search Box, Weather: [SNFS Display](./Others/slim/fonts)
   
 - **MPD Music Directory** \
   `~/.mpd/mpd.conf`
