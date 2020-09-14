@@ -32,15 +32,13 @@ Here are some details about my setup:
 ## :gift: Changelogs
 <a href="https://i.ibb.co/dbxBh6S/X.png"><img src="https://i.ibb.co/wdPCt2C/chrome-thumbnail-400px.png" alt="google-chrome.thumbnail" align="right" width="400px"></a>
 
-- **GTK+ Theme**: Google-chrome / Chromium CSS - [See tip](#some-user-configuration)
-- **Screenshots**: Save original file (select/draw), fix delays - [See user conf](#some-user-configuration)
+- **GTK+ Theme**: Google-chrome / Chromium - [See tip](#some-user-configuration)
+- **Screenshots**: Save original file, etc - [See user conf](#some-user-configuration)
 - **Neofetch**: Added Artix Linux logo - [See screenshot](https://i.ibb.co/rkVxsVT/neofetch.png)
 - **Mechanical Theme**: Added panel shadows
 - **New Mode**: Minimal (both theme)
 - **New Wallpapers** (can be [added](./.wallpaper/) by yourself)
 - **Major Changes**: Reconfigure most of the files
-
-Look in the [gallery](https://github.com/owl4ce/dotfiles/wiki/Gallery) and [video preview](https://www.youtube.com/watch?v=GRLUOrvEc2s) for more details.
 
 ## :rice_scene:  Setup
 This is how to install this dotfiles for openbox automated setup.
