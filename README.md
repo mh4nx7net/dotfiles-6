@@ -30,15 +30,14 @@ Here are some details about my setup:
 - **Text Editor**                  : [Geany](https://www.geany.org/), [nano](https://www.nano-editor.org/), [vim](https://www.vim.org/)
 
 ## :gift: Changelogs
-<a href="https://i.ibb.co/DzZhZH8/X.png"><img src="https://i.ibb.co/FndfhJt/chrome-thumbnail-400px.png" alt="google-chrome.thumbnail" align="right" width="400px"></a>
-<a href="https://i.ibb.co/rkVxsVT/neofetch.png"><img src="https://i.ibb.co/rkVxsVT/neofetch.png" alt="neofetch" align="right" width="400px"></a>
+<a href="https://i.ibb.co/DzZhZH8/X.png"><img src="https://i.ibb.co/FndfhJt/chrome-thumbnail-400px.png" alt="google-chrome.thumbnail" align="right" width="200px"></a>
 
-- **GTK+ Theme**: Google-chrome/Chromium material theme. [See tips](#some-user-configuration)
-- **Major Changes**: Reconfigure most of the files
-- **Mechanical Theme**: Added panel shadows
+- **GTK+ Theme**: Google-chrome / Chromium CSS - [See tips](#some-user-configuration)
 - **Neofetch**: Added Artix Linux logo
+- **Mechanical Theme**: Added panel shadows
 - **New Mode**: Minimal (both theme)
 - **New Wallpapers** (can be [added](./.wallpaper/) by yourself)
+- **Major Changes**: Reconfigure most of the files
 
 Look in the [gallery](https://github.com/owl4ce/dotfiles/wiki/Gallery) and [video preview](https://www.youtube.com/watch?v=GRLUOrvEc2s) for more details.
 
