@@ -268,15 +268,14 @@ The [Others](./Others/) folder contains spicetify and slim themes. SLiM themes r
   ...
   ```
 - **Google-chrome / Chromium (tip)** \
-  **Settings** \
-  `chrome://settings/`
+  Settings: `chrome://settings/`
   - Themes: `Use GTK+`
   - `Use system title bar and borders`
   
-  **New Tab** \
+  New Tab
   - Extension: [Tabliss - A Beautiful New Tab](https://chrome.google.com/webstore/detail/tabliss-a-beautiful-new-t/hipekcciheckooncpjeljhnekcoolahp?hl=en)
   
-  **Tabliss -  Widgets Font** \
+  Tabliss -  Widgets Font
   - Greeting, Message: [Youth Touch DEMO](https://www.dafont.com/youth-touch.font)
   - Time, Search Box, Weather: [SNFS Display](./Others/slim/fonts)
   
